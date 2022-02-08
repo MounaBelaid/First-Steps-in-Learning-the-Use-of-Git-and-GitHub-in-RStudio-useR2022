@@ -1,7 +1,7 @@
 name: "first-steps-in-learning-the-use-of-git-and-github-in-rstudio"
-title: "First Steps in Learning the Use of Git & Github in RStudio"
+title: "First Steps in Learning the Use of Git & GitHub in RStudio"
 description: |
-  Getting familiar with the use of Git & Github in RStudio
+  Getting familiar with the use of Git & GitHub in RStudio
 output_dir: "."
 theme: theme.css
 navbar:
