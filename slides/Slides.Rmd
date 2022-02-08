@@ -147,7 +147,7 @@ layout: true
 --
 
 .pull-left-narrow[
-.center[<img src="img/r-rstudio.PNG" width="180%"/>]]
+.center[<img src="img/r-rstudio.png" width="180%"/>]]
 .pull-right-wide[### .black[R and RStudio installed]]
 
 --
