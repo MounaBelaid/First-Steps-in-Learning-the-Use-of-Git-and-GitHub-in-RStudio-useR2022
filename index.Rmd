@@ -1,0 +1,128 @@
+---
+title: "First Steps in Learning the Use of Git & GitHub in RStudio"
+author: 
+- name: Mouna Belaid
+  url: https://mounabelaid.netlify.app/
+  affiliation: Prime Analytics
+  affiliation_url: https://www.primeanalytics.fr/
+date: "June 18th, 2022"
+description: |
+  Getting familiar with the use of Git & GitHub in RStudio
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+```
+
+```{r meta, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_general(
+    description = "Getting familiar with the use of Git & GitHub in RStudio",
+    generator = "xaringan and remark.js"
+  ) %>% 
+  meta_name("github-repo" = "https://github.com/MounaBelaid/First-Steps-in-Learning-the-use-of-Git-and-GitHub-in-RStudio") %>% 
+  meta_social(
+    title = "First Steps in Learning the Use of Git & GitHub in RStudio",
+    url = "https://mounabelaid.github.io/First-Steps-in-Learning-the-use-of-Git-and-GitHub-in-RStudio/",
+    image = "",
+    image_alt = paste(
+      "Title slide of First Steps in Learning the Use of Git & GitHub in RStudio",
+      "Workshop delivered by Mouna Belaid"
+      ),
+    og_type = "website",
+    og_author = "Mouna Belaid",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@mounaa_belaid"
+  )
+```
+
+```{r cover-image, echo=FALSE, fig.align="center", fig.cap=NULL, fig.alt="Cover image for the workshop with the title (same as this page). My name is listed as well as the date June 18 of 2022. The image features the logos of Git and GitHub in the right corner."}
+knitr::include_graphics("cover-image.png")
+```
+
+# Welcome
+
+This is the course site for the _First Steps in Learning the Use of Git & GitHub in RStudio_ workshop created by Mouna Belaid for the [useR! 2022 Conference](https://user2022.r-project.org/about/user/).
+
+Collaborating on code development and tracking changes in the code across versions are daily issues for big teams.
+This session will equip you with the knowledge you need to make it easy to do so, as well as to contribute to various open source projects and to make your work more publicly accessible. This session will teach you how to institute best practices for using Git and GitHub in RStudio.
+
+Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
+
+This two-hour hands-on workshop will be a gentle introduction to learn about the benefits of using Git and GitHub and to dig into the best practices in coding and collaborating on GitHub.
+
+# Audience
+
+This workshop is designed for new R programmers, new GitHub users, users new to Git, students, managers. Besides, some programming knowledge with R will be helpful but is not required.
+
+# Prerequisites
+
+- A computer that should have the following programs installed:
+  - A recent version of R (>=3.6.0), which is available for free [here](https://cloud.r-project.org/)
+  - A recent version of RStudio Desktop (>=1.4), available for free [here](https://www.rstudio.com/products/rstudio/download/).
+  
+Note: You can find step-by-step instructions for installing R & RStudio here: [macOS](https://www.youtube.com/watch?v=GM88tYlEy_g), [Windows](https://www.youtube.com/watch?v=JRKmZK5-6aE)
+
+- Please sign up for a free GitHub account [here](https://github.com/)
+- Download and install Git by following this [link](https://git-scm.com/downloads)
+- Zoom will be used during the workshop, please download and install [the latest version beforehand](https://zoom.us/download)
+
+# Session Outline
+
+- Overview of Version Control, benefits of version control, and popular version control systems
+- What is Git?
+- What is GitHub?
+- Getting the most out of GitHub and Git
+  - Connect a new RStudio project started from scratch to GitHub
+  - Learn about GitHub fundamentals
+  - Clone an existing GitHub Repository to an RStudio Project
+  - Create branches
+  - Make commits 
+  - Introduce changes to your R script with pull requests
+- Practice a set of tasks to get familiar with Git and GitHub in RStudio
+- Submission of a new Cheatsheet to the ["Cheatsheets" GitHub Repository](https://github.com/rstudio/cheatsheets) maintained by RStudio
+
+# Slides
+
+Please in the following [link](slides/Slides.html) my slides.
+
+# Resources
+
+This workshop draws from various valuable resources:
+
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html): a book which was written by Jenny Bryan, the STAT 545 TAs, Jim Hester
+
+- [GitHub Docs](https://docs.github.com/en): a full open source documentation provided by GitHub
+
+- [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github): a free course offered by GitHub
+
+
+# About the useR! 2022 Conference
+
+[useR!](https://user2022.r-project.org/) is an annual nonprofit conference organized by R community volunteers and supported by the R Foundation. Attendees include R developers and users who are data scientists, business intelligence specialists, analysts, statisticians from academia and industry, and students. The conferences showcase applications of R software and developments in the software itself, as well as new and updated R packages that provide [boundless](https://cran.r-project.org/web/packages/) additional functionality to R. Community contributions form the foundation of useR! conferences.
+
+<aside>
+```{r useR2022}
+knitr::include_graphics("useR2022.jpg")
+```
+</aside>
+
+# About the Author
+
+[Mouna Belaid](https://mounabelaid.netlify.app/) is an engineer in Statistics and Data Analysis, graduated from the Higher School of Statistics and Data Analysis - [ESSAI](http://www.essai.rnu.tn/en/), Tunis and holds a research master’s degree in Data Processing and Complexity of Living Systems from National School of Engineers of Tunis - ENIT and Paris Descartes University. 
+
+She is currently a Business Intelligence Consultant at Prime Analytics in service for BNP Paribas Securities Services based in Paris, France. 
+
+She co-founders two communities: [Tunis R User Group](https://www.meetup.com/tunis-r-user-group) and [PyLadies Tunis](https://www.meetup.com/pyladies-tunis/). She is also a member of [R-Ladies Global](https://rladies.org/) committee, a worldwide organization to promote gender diversity in the R community.
+
+# Acknowledgments {.appendix}
+
+This website was made with the [distill package](https://rstudio.github.io/distill/) and a custom theme designed originally by [Silvia Canelón](https://www.silviacanelon.com/) and updated by Mouna Belaid.

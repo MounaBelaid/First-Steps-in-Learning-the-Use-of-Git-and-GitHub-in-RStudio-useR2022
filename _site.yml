@@ -1,0 +1,26 @@
+name: "first-steps-in-learning-the-use-of-git-and-github-in-rstudio"
+title: "First Steps in Learning the Use of Git & Github in RStudio"
+description: |
+  Getting familiar with the use of Git & Github in RStudio
+output_dir: "."
+theme: theme.css
+navbar:
+  search: true
+  source_url: https://github.com/rstudio/distill
+  right:
+    - text: "useR! 2022, The R User Conference"
+      href: "https://user2022.r-project.org/"
+    - text: "Slides"
+      href: "slides/Slides.html"
+    - icon: fab fa-twitter
+      href: "https://twitter.com/_useRconf"
+    - icon: fab fa-linkedin
+      href: "https://www.linkedin.com/company/user-conf/"
+    - icon: fab fa-github
+      href: https://github.com/MounaBelaid/First-Steps-in-Learning-the-use-of-Git-and-GitHub-in-RStudio
+creative_commons: CC BY-SA
+repository_url: https://github.com/MounaBelaid/First-Steps-in-Learning-the-use-of-Git-and-GitHub-in-RStudio
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
