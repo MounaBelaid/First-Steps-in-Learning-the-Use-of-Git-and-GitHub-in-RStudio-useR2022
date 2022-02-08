@@ -28,10 +28,10 @@ meta() %>%
     description = "Getting familiar with the use of Git & GitHub in RStudio",
     generator = "xaringan and remark.js"
   ) %>% 
-  meta_name("github-repo" = "https://github.com/MounaBelaid/First-Steps-in-Learning-the-use-of-Git-and-GitHub-in-RStudio") %>% 
+  meta_name("github-repo" = "https://github.com/MounaBelaid/First-Steps-in-Learning-the-Use-of-Git-and-GitHub-in-RStudio") %>% 
   meta_social(
     title = "First Steps in Learning the Use of Git & GitHub in RStudio",
-    url = "https://mounabelaid.github.io/First-Steps-in-Learning-the-use-of-Git-and-GitHub-in-RStudio/",
+    url = "https://mounabelaid.github.io/First-Steps-in-Learning-the-Use-of-Git-and-GitHub-in-RStudio/",
     image = "",
     image_alt = paste(
       "Title slide of First Steps in Learning the Use of Git & GitHub in RStudio",
@@ -92,7 +92,7 @@ Note: You can find step-by-step instructions for installing R & RStudio here: [m
 
 # Slides
 
-Please in the following [link](slides/Slides.html) my slides.
+Please find in the following [link](slides/Slides.html) my slides.
 
 # Resources
 
