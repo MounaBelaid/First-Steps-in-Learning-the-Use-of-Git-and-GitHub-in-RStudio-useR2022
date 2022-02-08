@@ -5,7 +5,7 @@ description: |
 output_dir: "."
 theme: theme.css
 navbar:
-  search: true
+  search: false
   source_url: https://github.com/rstudio/distill
   right:
     - text: "useR! 2022, The R User Conference"
@@ -17,7 +17,7 @@ navbar:
     - icon: fab fa-linkedin
       href: "https://www.linkedin.com/company/user-conf/"
     - icon: fab fa-github
-      href: https://github.com/MounaBelaid/first-steps-in-learning-the-use-of-git-and-github-in-rstudiose-of-Git-and-GitHub-in-RStudio
+      href: https://github.com/MounaBelaid/First-Steps-in-Learning-the-Use-of-Git-and-GitHub-in-RStudio
 creative_commons: CC BY-SA
 repository_url: https://github.com/MounaBelaid/First-Steps-in-Learning-the-Use-of-Git-and-GitHub-in-RStudio
 output:
