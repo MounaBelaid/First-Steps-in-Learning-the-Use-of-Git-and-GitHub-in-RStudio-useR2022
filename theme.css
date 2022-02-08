@@ -82,7 +82,7 @@ d-appendix {
 /* Change bullets */
 ul > li::marker {
   font-size: 1.125em;
-  color: #e5bf00;
+  color: #2167ba;
 }
 
 /* Change link appearance */
